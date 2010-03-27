@@ -2287,3 +2287,273 @@ ActionController::RoutingError (No route matches "/images/main1.png" with {:meth
   
 
 Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 13:40:27) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 13:42:05) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 13:44:34) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 13:52:02) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 13:55:08) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 13:57:49) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 14:02:21) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 14:03:48) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 14:06:41) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 14:09:18) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 15ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 14:10:33) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 15:04:20) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 15:09:03) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 15:10:20) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 15:10:23) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 15:13:17) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 15:13:20) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 15:13:21) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 15:14:08) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 15:15:38) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 15:16:07) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 15:16:49) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-27 15:16:55) [GET]
+
+ActionController::RoutingError (No route matches "/index.htm" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 15:17:45) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 15:18:35) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 15:19:07) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 15:28:38) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
