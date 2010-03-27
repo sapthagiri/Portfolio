@@ -1509,3 +1509,133 @@ ActionController::RoutingError (No route matches "/images/main1.png" with {:meth
   
 
 Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-25 22:22:14) [GET]
+
+ActionController::RoutingError (No route matches "/man" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-25 22:22:19) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (1.2ms)
+Rendered shared/_footer (0.8ms)
+Completed in 116ms (View: 112, DB: 0) | 200 OK [http://localhost/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-25 22:22:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/main1.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-25 22:34:12) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.8ms)
+Rendered shared/_footer (0.5ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-25 22:34:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/main1.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-25 22:38:26) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/main]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-25 22:38:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/main1.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 09:53:25) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (1.4ms)
+Rendered shared/_footer (1.1ms)
+Completed in 85ms (View: 82, DB: 0) | 200 OK [http://localhost/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-27 09:53:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/main1.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 09:53:28) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/main]
+  [4;36;1mSQL (1.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-27 09:53:29) [GET]
+
+ActionController::RoutingError (No route matches "/images/main1.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 09:58:57) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (1.1ms)
+Rendered shared/_footer (0.8ms)
+Completed in 31ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-27 09:58:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/main1.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
