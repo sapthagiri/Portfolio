@@ -145,9 +145,6 @@ float:left;
 margin-bottom:0px;
 padding-bottom:0px;
 padding-right:19px;
-
-
-
 }
 
 
@@ -251,7 +248,7 @@ text-align: center;
     background-image: url(/images/main1.png);
 }
 
-#main_content {
+#main{
     margin: 44px auto;
     min-height: 460px;
     width: 800px;
