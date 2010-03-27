@@ -110,24 +110,20 @@ background:transparent;
 
 
 #header 
-
 {
 width: 950px;
 }
 
 #header .logo
-
 {
 float:left;
-padding-top:0px;
-padding-left:45px;
+padding-top:30px;
 border: none;
 }
 
 
 
 #nav ul
-
 {
 display:block;
 float:right;
@@ -149,7 +145,6 @@ padding-right:19px;
 
 
 #nav ul li a
-
 {
 float:left;
 border-left:2px solid #858383;
@@ -182,7 +177,6 @@ border-left:4px solid #a8ca65;
 
 
 #content 
-
 {
 float:left;
 background-color:transparent;
@@ -196,7 +190,6 @@ border-bottom:1px solid #eaeaea;
 
 
 #footer 
-
 {
 clear: both;
 margin-right: 0px;
@@ -225,7 +218,6 @@ text-align: center;
 }
 
 #footer a 
-
 {
 font-size: 1em;
 font-weight: normal;
@@ -234,12 +226,15 @@ text-align: center;
 }
 
 #footer a:hover 
-
 {
 text-decoration: underline;
 font-weight: normal;
 color: #facd00;
 text-align: center;
+}
+
+a img {
+   border: 0;
 }
 
 /*---------content------------*/
@@ -249,3 +244,11 @@ text-align: center;
     min-height: 460px;
     width: 800px;
 }
+
+#sapthagiri img{
+    height: 460px;
+    width: 178px;
+    float: left;
+}
+
+
