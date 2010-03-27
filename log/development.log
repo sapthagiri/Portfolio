@@ -2557,3 +2557,13 @@ Rendering main/index
 Rendered shared/_header (0.2ms)
 Rendered shared/_footer (0.1ms)
 Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 18:14:40) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (1.4ms)
+Rendered shared/_footer (1.0ms)
+Completed in 86ms (View: 83, DB: 0) | 200 OK [http://localhost/]
