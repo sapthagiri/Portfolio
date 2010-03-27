@@ -2151,3 +2151,79 @@ ActionController::RoutingError (No route matches "/images/main1.png" with {:meth
   
 
 Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 12:06:31) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-27 12:06:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/main1.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#send_mail (for 127.0.0.1 at 2010-03-27 12:06:41) [POST]
+  Parameters: {"commit"=>"Send", "authenticity_token"=>"rui/2cKTtyBG28ZEWhg6z/Lj6r3Jo4BHJn94Ce+0Irw=", "email"=>{"name"=>"", "subject"=>"", "message"=>"", "email"=>""}}
+Sent mail to sapthagiri269@gmail.com
+
+Date: Sat, 27 Mar 2010 12:06:41 +0530
+From: sapthagirihere@gmail.com
+To: sapthagiri269@gmail.com
+Subject: test
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+test
+Redirected to http://localhost:3000/
+Completed in 15349ms (DB: 0) | 302 Found [http://localhost/emailer/send_mail]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#send_mail (for 127.0.0.1 at 2010-03-27 12:07:06) [POST]
+  Parameters: {"commit"=>"Send", "authenticity_token"=>"rui/2cKTtyBG28ZEWhg6z/Lj6r3Jo4BHJn94Ce+0Irw=", "email"=>{"name"=>"sap", "subject"=>"sap", "message"=>"sa", "email"=>"sap@gmail.com"}}
+Sent mail to sapthagiri269@gmail.com
+
+Date: Sat, 27 Mar 2010 12:07:06 +0530
+From: sapthagirihere@gmail.com
+To: sapthagiri269@gmail.com
+Subject: test
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+test
+Redirected to http://localhost:3000/
+Completed in 4626ms (DB: 0) | 302 Found [http://localhost/emailer/send_mail]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-27 12:07:11) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-27 12:07:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/main1.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
