@@ -7,51 +7,102 @@
 </div>
 
 <div id="main">  
-  <div id="home">
-    <h2>Welcome</h2>
-    <p>Hello and Welcome to my website</p>
-    <p>My name is SAPTHAGIRI. I'm a budding WEB DEVELOPER/DESIGNER located in Pondicherry, India.
-      This site showcases my PORTFOLIO. Find out more ABOUT ME and don't hesitate to CONTACT ME</p>
+  <div id="home" style="min-height: 600px; text-align: justify;">
+    <h2>
+      Hello and Welcome...<br/>
+      My name is <span class="home_text">Sapthagiri</span>. I'm a budding <span class="home_text">Web Developer/Designer</span> located in India.<br />
+      This site showcases my <span class="home_text">Portfolio</span> & <span class="home_text">Blog</span>. Find out more <span class="home_text">About Me</span> and don't hesitate to <span class="home_text">Contact Me</span>.
+    </h2>
   </div>
   
-  <div id="about_me">
-    <h2>About ME</h2>
+  <div id="about_me" style="min-height: 600px">
+    <h2>About Me</h2>
     <p>I'm Sapthagiri.B,budding web developer from Pondicherry(India).I've finished my studies in Pondicherry, 
       majoring Electronics and Communication at may 2008 for bachelor degree.My childhood interest in computers,
       tends me to choose IT field for my career.I'm working as a Software Engineer in Sagework Software Ltd,Pondicherry.
-      My hobbies are playing cricket,reading books and watching films.I like going to movies,
+    </p>
+    <p>
+      My hobbies are playing cricket,reading books, photography and watching films.I like going to movies,
       and I'm a great fan of Rajinikanth and Kamal Hassan. And,I like to hang out with my friends.
-    </p>  
+    </p><br/>
+    <h3>Technical Skills</h3>
+    <table cellspacing="20px">
+      <tr>
+        <td>Framework</td>
+        <td><p>Rails 2.3.5, Microsoft .Net 2.0</p></td>
+      </tr>
+      <tr>
+        <td>Development Tools</td>
+        <td><p>Microsoft Visual Studio 2005, SQL Management Studio</p></td>
+      </tr>
+      <tr>
+        <td>Languages</td>
+        <td><p>Ruby 1.8.7, VB.net, C, C++, VB</p></td>
+      </tr>
+      <tr>
+        <td>Scripting Languages</td>
+        <td><p>JavaScript</p></td>
+      </tr>
+      <tr>
+        <td>Markup Languages</td>
+        <td><p>HTML, XHTML, CSS</p></td>
+      </tr>
+      <tr>
+        <td>JavaScript Libraries</td>
+        <td><p>JQuery, Prototype</p></td>
+      </tr>
+      <tr>
+        <td>RDBMS</td>
+        <td><p>MySQL, MS-SQL Server 2005</p></td>
+      </tr>
+      <tr>
+        <td>Operating System</td>
+        <td><p>Windows, LINUX, UNIX (SCO)</p></td>
+      </tr>
+            <tr>
+        <td>Web Server</td>
+        <td><p>Web rick, Mongrel, IIS, Apache</p></td>
+      </tr>
+      <tr>
+        <td>Version Control</td>
+        <td><p>Git</p></td>
+      </tr>
+      <tr>
+        <td>Testing</td>
+        <td><p>Rspec, Cucumber</p></td>
+      </tr>
+    </table>  
   </div>
   
-  <div id="portfolio">
+  <div id="portfolio"style="min-height: 600px">
     <h2>My Portfolio</h2>
     <h4>WATTBOT.COM</h4>
     <h4>SAPTHA_GIRI.IN</h4>
   </div>
   
-  <div id="blog">
+  <div id="blog"style="min-height: 600px" >
     <h2>Blog</h2>
-    <h3>Available Soon</h3>
-    <p>Currents blogs at <%= link_to "sapthagiriblog", "http://www.sapthagiriblog.blogspot.com ", :target => "blank" %></p>
+    <img src="/images/coming_soon.png" alt=" Coming Soon" style="padding:20px;" />
+    <p>Currently  blogs at <%= link_to "sapthagiriblog", "http://www.sapthagiriblog.blogspot.com ", :target => "blank" %></p>
   </div>  
   
-  <div id="mail">
+  <div id="mail" style="min-height: 460px">
     <h2>Contact</h2>
+    <p>Use the form below to contact me</p>
     <% form_for :email, :url => { :controller => :emailer, :action => :send_mail } do |f| -%>
-      <label class="label">Name</label>
+      <h3>Name *</h3>
       <p>
         <%= f.text_field :name, :size => 35 %> 
       </p>
-      <label class="label">Email</label>
+      <h3>Email *</h3>
       <p>
         <%= f.text_field :email, :size => 35 %> 
       </p>
-      <label class="label">Subject</label>
+      <h3>Subject *</h3>
       <p>
         <%= f.text_field :subject, :size => 35 %> 
       </p>
-      <label class="label">Your message</label>
+      <h3>Your message *</h3>
       <p>
         <%= f.text_area :message, :size => "40x10" %>
       </p>
