@@ -113,7 +113,7 @@ width: 950px;
 #header .logo
 {
 float:left;
-padding-top:10px;
+padding-top:30px;
 border: none;
 }
 
@@ -148,12 +148,13 @@ padding-right:5px;
 padding-left:5px;
 padding-top:10px;
 padding-bottom:10px;
-color: #e6e6e6;
+color: #9a9a9a;
 font-weight: bold;
-font-size: 0.9em;
+font-size: 1em;
 text-decoration: none;
-font-family:Arial, Helvetica, sans-serif;
+font-family: 'Courier New', Courier, monospace;
 }
+
 
 #nav  li a:hover
 {
@@ -166,9 +167,11 @@ color: #25ADE4;
 }
 
 #nav .menu{
-
+    background-color: #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
-
 
 #content 
 {
@@ -185,13 +188,12 @@ border-bottom:1px solid #eaeaea;
 
 #footer 
 {
-height: 100px;
+height: 350px;
 background-color: #25ADE4;
-margin: 45px 100px;
--moz-border-radius-bottomleft: 5px;
--moz-border-radius-bottomright: 5px;
--moz-border-radius-topleft: 5px;
--moz-border-radius-topright: 5px;
+margin: 0 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
 }
 
 /*#footer p
@@ -263,10 +265,11 @@ a img {
     padding-left: 15px;
 }
 
-.home_text{
+.home_text a{
     font-size: 40px;
     text-decoration: underline;
     color: #999999;
+    cursor: pointer;
 }
 
 #about_me table{
@@ -278,6 +281,30 @@ a img {
     width: 178px;
     float: left;
     padding-top: 25px;
+}
+
+#links, #tweets h3{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+#links ul{
+    list-style-type: none    
+}
+
+#links a{
+    line-height: 3em;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+hr{
+    width: 80%;
+}
+
+#cp a{
+    color: #ffffff;
 }
 
 

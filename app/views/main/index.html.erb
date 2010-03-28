@@ -7,11 +7,11 @@
 </div>
 
 <div id="main">  
-  <div id="home" style="min-height: 600px; text-align: justify;">
+  <div id="home" style="min-height: 460px; text-align: justify;">
     <h2>
       Hello and Welcome...<br/>
-      My name is <span class="home_text">Sapthagiri</span>. I'm a budding <span class="home_text">Web Developer/Designer</span> located in India.<br />
-      This site showcases my <span class="home_text">Portfolio</span> & <span class="home_text">Blog</span>. Find out more <span class="home_text">About Me</span> and don't hesitate to <span class="home_text">Contact Me</span>.
+      My name is <span class="home_text"><a class="about">Sapthagiri</a></span>. I'm a budding <span class="home_text"><a class="portfolio">Web Developer/Designer</a></span> from India.<br />
+      This site showcases my <span class="home_text"><a class="portfolio">Portfolio</a></span> & <span class="home_text"><a class="blog">Blog</a></span>. Find out more <span class="home_text"><a class="about">About Me</a></span> and don't hesitate to <span class="home_text"><a class="contact">Contact Me</a></span>.
     </h2>
   </div>
   
@@ -74,13 +74,13 @@
     </table>  
   </div>
   
-  <div id="portfolio"style="min-height: 600px">
+  <div id="portfolio" style="min-height: 600px">
     <h2>My Portfolio</h2>
     <h4>WATTBOT.COM</h4>
     <h4>SAPTHA_GIRI.IN</h4>
   </div>
   
-  <div id="blog"style="min-height: 600px" >
+  <div id="blog" style="min-height: 600px" >
     <h2>Blog</h2>
     <img src="/images/coming_soon.png" alt=" Coming Soon" style="padding:20px;" />
     <p>Currently  blogs at <%= link_to "sapthagiriblog", "http://www.sapthagiriblog.blogspot.com ", :target => "blank" %></p>
@@ -112,3 +112,35 @@
     <% end -%>
   </div>  
 </div>
+
+<%= javascript_tag %q{
+  $(document).ready(function(){
+    $('#about_me, #portfolio, #blog, #mail').hide();
+    
+    $('.about').click(function(){
+      $('#about_me, #portfolio, #blog, #mail').show();
+      $.scrollTo("#about_me", 1000);
+      return false;
+    });
+
+    $('.portfolio').click(function(){
+      $('#about_me, #portfolio, #blog, #mail').show();
+      $.scrollTo("#portfolio", 1200);
+      return false;
+    });
+    $('.blog').click(function(){
+      $('#about_me, #portfolio, #blog, #mail').show();
+      $.scrollTo("#blog", 1000);
+      return false;
+    });
+    $('.contact').click(function(){
+      $('#about_me, #portfolio, #blog, #mail').show();
+      $.scrollTo("#mail", 1000);
+      return false;
+    });
+    $('.top').click(function(){
+      $.scrollTo("#wrapper", 1000);
+      return false;
+    });
+  });
+}%>
