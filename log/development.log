@@ -7583,3 +7583,33 @@ Rendering main/index
 Rendered shared/_header (0.1ms)
 Rendered shared/_footer (0.1ms)
 Completed in 19ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-28 23:14:41) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-28 23:14:42) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-03-28 23:14:43) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
