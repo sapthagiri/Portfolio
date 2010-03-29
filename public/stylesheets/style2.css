@@ -188,9 +188,9 @@ border-bottom:1px solid #eaeaea;
 
 #footer 
 {
-height: 350px;
+height: 470px;
 background-color: #25ADE4;
-margin: 0 5px;
+margin: 0 10px;
 -webkit-border-radius: 5px;
 -moz-border-radius: 5px;
 border-radius: 5px;
@@ -283,9 +283,9 @@ a img {
     padding-top: 25px;
 }
 
-#links, #tweets h3{
+#footer h3{
     font-family: 'Courier New', Courier, monospace;
-    padding: 20px;
+    padding: 25px;
 }
 
 #links ul{
@@ -297,6 +297,16 @@ a img {
     font-size: 16px;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.post{
+    padding: 10px;
+    width: 650px;
+}
+
+.txt p{
+    font-size: 15px;
+    color: #FFFFFF;
 }
 
 hr{

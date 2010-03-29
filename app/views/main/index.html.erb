@@ -142,5 +142,21 @@
       $.scrollTo("#wrapper", 1000);
       return false;
     });
+    
+    $.jTwitter('saptha_giri', 5, function(data){
+        $.each(data, function(i, post){
+            $('#tweets').append(
+                '<div class="post">'
+                +' <div class="txt">'
+                + '<p>'
+                +    post.text
+                + '</p>'
+                + '<hr/>'
+                +' </div>'
+                +'</div>'
+            );
+        });
+    });
+
   });
 }%>
