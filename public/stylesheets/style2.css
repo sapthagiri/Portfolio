@@ -258,7 +258,7 @@ a img {
 }
 
 #main h3{
-    color: #25ADE4;
+    color: #CC6600;
     font-family: Georgia,"Times New Roman",Times,serif;
     font-style: inherit;
     line-height: 1.5em;
@@ -276,9 +276,26 @@ a img {
     padding-left: 20px;
 }
 
+#about_me table p{
+    font-size: 14px;
+}
+
+#portfolio div{
+    min-height: 270px;
+}
+
+#portfolio img{
+    width: 250px;
+    height: 150px;
+    float: left;
+    padding: 0 20px 20px 20px;
+}
+
+
 #sapthagiri img{
     float: left;
     padding-top: 25px;
+    position: fixed;
 }
 
 #footer h3{
@@ -303,7 +320,7 @@ a img {
 }
 
 .txt p{
-    font-size: 15px;
+    font-size: 13px;
     color: #FFFFFF;
 }
 
