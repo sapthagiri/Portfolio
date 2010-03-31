@@ -190,13 +190,12 @@ border-bottom:1px solid #eaeaea;
 {
 height: 470px;
 background-color: #25ADE4;
-margin: 0 10px;
 -webkit-border-radius: 5px;
 -moz-border-radius: 5px;
 border-radius: 5px;
 }
 
-/*#footer p
+#footer p
 
 {
 font-size: 0.7em;
@@ -204,11 +203,7 @@ line-height:3em;
 font-family: arial;
 font-weight: normal;
 color: #FFFFFF;
-padding-top: 10px;
-padding-right: 0px;
-padding-bottom: 10px;
-padding-left: 10px;
-text-align: center;
+text-align: left;
 
 }
 
@@ -226,13 +221,29 @@ text-decoration: underline;
 font-weight: normal;
 color: #facd00;
 text-align: center;
-} */
+} 
 
-a img {
-   border: 0;
+#footer a:hover 
+{
+text-decoration: underline;
+font-weight: normal;
+color: #facd00;
+text-align: center;
 }
 
+#footer h3{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 25px;
+}
+
+a img { border: 0; }
+
 /*---------content------------*/
+
+#sapthagiri img{
+    float: left;
+    padding-top: 100px;
+}
 
 #main{
     margin: 44px auto;
@@ -265,11 +276,40 @@ a img {
     padding-left: 15px;
 }
 
+#main h4{
+    font-size: 0.8em;
+    line-height:1.5em;
+    font-family: arial;
+    font-weight: normal;
+    color: #CC6600;
+    text-decoration: underline;
+    cursor: pointer;
+    }
+    
+#main h5{
+    color: #CC6600;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-style: inherit;
+    line-height: 1.5em;
+    padding-left: 15px;
+}
+
+#home{
+    min-height: 460px;
+    text-align: justify;
+}
+
+
 .home_text a{
     font-size: 40px;
     text-decoration: underline;
     color: #999999;
     cursor: pointer;
+}
+
+#about_me {
+    min-height: 950px;
+    display: none;
 }
 
 #about_me table{
@@ -278,6 +318,19 @@ a img {
 
 #about_me table p{
     font-size: 14px;
+}
+#about_me table h4{
+    font-size: 0.8em;
+    line-height:1.5em;
+    font-family: arial;
+    font-weight: normal;
+    color: #000000;
+    cursor: default;
+}
+
+#portfolio{
+    min-height: 800px;
+    display: none;
 }
 
 #portfolio div{
@@ -291,45 +344,37 @@ a img {
     padding: 0 20px 20px 20px;
 }
 
-
-#sapthagiri img{
-    float: left;
-    padding-top: 25px;
-    position: fixed;
+#blog{
+    min-height: 600px;
+    display: none;
 }
 
-#footer h3{
-    font-family: 'Courier New', Courier, monospace;
-    padding: 25px;
+#mail{
+    min-height: 460px;
+    display: none;
 }
+
+#mail h5{
+    color: #467AA7;
+}
+
 
 #links ul{
     list-style-type: none    
 }
 
 #links a{
-    line-height: 3em;
-    font-size: 16px;
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
-.post{
-    padding: 10px;
-    width: 650px;
-}
-
-.txt p{
-    font-size: 13px;
+    font-size: 1em;
+    line-height:3em;
+    font-family: arial;
+    font-weight: normal;
     color: #FFFFFF;
 }
 
-hr{
-    width: 80%;
-}
+.post{ padding: 10px;width: 650px; }
 
-#cp a{
-    color: #ffffff;
-}
+hr{ width: 80%; }
+
+#cp a{ color: #FFFFFF; }
 
 
