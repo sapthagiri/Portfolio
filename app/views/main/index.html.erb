@@ -16,11 +16,11 @@
   </div>
   
   <div id="about_me">
-    <h4 class="selected">Home</h4>
+    <h4 class="selected">| Home</h4>
     <h2 class="about">> About Me</h2>
-    <h4 class="portfolio">Portfolio</h4>
-    <h4 class="blog">Blog</h4>
-    <h4 class="contact">Contact</h4><br/>
+    <h4 class="portfolio">| Portfolio</h4>
+    <h4 class="blog">| Blog</h4>
+    <h4 class="contact">| Contact</h4><br/>
     <img src="/images/me.jpg" alt="sapthagiri" style="float:right; padding: 0 20px;" />
     <p>I'm Sapthagiri.B, web developer from Pondicherry(India). I've finished my studies in Pondicherry, 
       majoring Electronics and Communication at may 2008 for bachelor degree. My childhood interest in computers,
@@ -80,45 +80,47 @@
   </div>
   
   <div id="portfolio">
-    <h4 class="selected">Home</h4>
-    <h4 class="about">About Me</h4>
+    <h4 class="selected">| Home</h4>
+    <h4 class="about">| About Me</h4>
     <h2 class="portfolio">> Portfolio</h2>
-    <h4 class="blog">Blog</h4>
-    <h4 class="contact">Contact</h4>
+    <h4 class="blog">| Blog</h4>
+    <h4 class="contact">| Contact</h4>
     <br/>
     <div class="wattbot">
       <h3>WATTBOT.COM</h3><br/>
       <a href="http://www.wattbot.com"><img src="/images/wattbot.jpg" alt="wattbot.com"  /></a>
-      <p><strong>Wattbot</strong> is a Internet based energy advisor located in California, USA. Associated with this project for the past one year</p>
-      <p>Recogonized by Wattbot - My headshot has been published in wattbot <a href="http://www.wattbot.com/about/team" target="_blank" style="font-size: inherit; text-decoration: underline;">website</p></a>
+        <p>&nbsp; &nbsp; &nbsp;> <strong>Wattbot</strong> is a Internet based energy advisor located in California, USA.</p>
+        <p>&nbsp; &nbsp; &nbsp;> Associated with this project for the past one year</p>
+        <p>&nbsp; &nbsp; &nbsp;> Recogonized by Wattbot - My headshot has been published in wattbot <a href="http://www.wattbot.com/about/team" target="_blank" style="font-size: inherit; text-decoration: underline;">website</p></a>
     </div>
     <hr style="width: 100%;"/><br/>
     <div class="saptha_giri">
      <h3>SAPTHA-GIRI.IN</h3></a><br/>
-     <a href="http://www.saptha-giri.in"><img src="/images/saptha-giri.jpg" alt="saptha-giri.in" /></a>
-     <p>SAPTHA-GIRI.IN is portfolio site of sapthagiri</p>
-     <p>Site is developed in Ruby on Rails & Jquery</p>
-    </div> 
+      <a href="http://www.saptha-giri.in"><img src="/images/saptha-giri.jpg" alt="saptha-giri.in" /></a>
+      <p>&nbsp; &nbsp; &nbsp;> SAPTHA-GIRI.IN is portfolio site of sapthagiri</p>
+      <p>&nbsp; &nbsp; &nbsp;> Site is developed in Ruby on Rails & Jquery</p>
+    </div>
+    <hr style="width: 100%;"/><br/>
   </div>
   
   <div id="blog">
-    <h4 class="selected">Home</h4>
-    <h4 class="about">About Me</h4>
-    <h4 class="portfolio">Portfolio</h4>
+    <h4 class="selected">| Home</h4>
+    <h4 class="about">| About Me</h4>
+    <h4 class="portfolio">| Portfolio</h4>
     <h2 class="blog">> Blog</h2>
-    <h4 class="contact">Contact</h4>
+    <h4 class="contact">| Contact</h4>
     <img src="/images/coming_soon.png" alt=" Coming Soon" style="margin: auto; display: block;padding-top:100px" />
     <p style="text-align: center;">Currently  blogs at <%= link_to "sapthagiriblog", "http://www.sapthagiriblog.blogspot.com ", :target => "blank" %></p>
   </div>  
   
   <div id="mail">
-    <h4 class="selected">Home</h4>
-    <h4 class="about">About Me</h4>
-    <h4 class="portfolio">Portfolio</h4>
-    <h4 class="blog">Blog</h4>
+    <h4 class="selected">| Home</h4>
+    <h4 class="about">| About Me</h4>
+    <h4 class="portfolio">| Portfolio</h4>
+    <h4 class="blog">| Blog</h4>
     <h2 class="contact">> Contact</h2>
     <p>Use the form below to contact me</p>
-    <% form_for :email, :url => { :controller => :emailer, :action => :send_mail } do |f| -%>
+    <% form_for :mailer, :url => { :controller => :emailer, :action => :send_mail } do |f| -%>
       <h5>Name *</h5>
       <p>
         <%= f.text_field :name, :size => 35 %> 
@@ -134,10 +136,11 @@
       <h5>Your message *</h5>
       <p>
         <%= f.text_area :message, :size => "40x10" %>
-      </p>
+      </p><br/>
       <p>
         <%= f.submit "Send" %>
       </p>
+      <p>* required</p>
     <% end -%>
   </div>  
 </div>
@@ -146,6 +149,7 @@
   $(document).ready(function(){
     $('.about').click(function(){
       $('#about_me, #portfolio, #blog, #mail').show();
+      $('#sapthagiri').fadeOut();
       $.scrollTo("#about_me", 1000);
       return false;
     });
@@ -166,11 +170,12 @@
       return false;
     });
     $('.top, .selected').click(function(){
+      $('#sapthagiri').show();
       $.scrollTo("#header", 1000);
-      $('#about_me, #portfolio, #blog, #mail').hide();
+      $('#about_me, #portfolio, #blog, #mail').hide('slow');
     });
     
-    $.jTwitter('saptha_giri', 6, function(data){
+    $.jTwitter('saptha_giri', 5, function(data){
         $.each(data, function(i, post){
             $('#tweets').append(
                 '<div class="post">'

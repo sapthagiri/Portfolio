@@ -5,7 +5,7 @@ class Emailer < ActionMailer::Base
     @recipients = "sapthagiri269@gmail.com"
     @from = email
     @sent_on = Time.now
-    @body[:message] = message
+    @message = message
   end
 
 end

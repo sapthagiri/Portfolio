@@ -3,19 +3,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<head> <title> Sapthagiri</title> 
-
-<%= stylesheet_link_tag ('style2') %>
-<%= javascript_include_tag ('jquery', 'jquery.scrollTo', 'jquery.localscroll', 'jquery.jtwitter', 'output-demo') %>
-
+<head>
+  <title> Sapthagiri - Web Developer, Pondicherry, India</title> 
+  <%= stylesheet_link_tag ('style2') %>
+  <%= javascript_include_tag ('jquery', 'jquery.scrollTo', 'jquery.localscroll', 'jquery.jtwitter', 'output-demo') %>
 </head>
 
 <body> 
-<%= render :partial=> 'shared/header' %>
-
-<%= yield %>
-
-<%= render :partial=> 'shared/footer' %>
+  <%= render :partial=> 'shared/header' %>
+  <%= yield %>
+  <%= render :partial=> 'shared/footer' %>
 </body>
 
 </html>

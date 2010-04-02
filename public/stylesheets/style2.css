@@ -113,7 +113,7 @@ width: 950px;
 #header .logo
 {
 float:left;
-padding-top:30px;
+padding-top:15px;
 border: none;
 }
 
@@ -181,18 +181,15 @@ margin-top:0px;
 margin-bottom:0px;
 padding:10px;
 width:920px;
-border-bottom:1px solid #eaeaea;
+border-bottom:5px solid #eaeaea;
 }
 
 
 
 #footer 
 {
-height: 470px;
+height: 400px;
 background-color: #25ADE4;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
 }
 
 #footer p
@@ -233,7 +230,7 @@ text-align: center;
 
 #footer h3{
     font-family: 'Courier New', Courier, monospace;
-    padding: 25px;
+    padding: 25px 25px 25px 0;
 }
 
 a img { border: 0; }
@@ -255,7 +252,7 @@ a img { border: 0; }
     color: #999999;
     padding-left: 20px;
     font-size: 14px;
-    line-height: 1.75em;
+    line-height: 1.7em;
     text-align: justify;
 }
 
@@ -269,7 +266,7 @@ a img { border: 0; }
 }
 
 #main h3{
-    color: #CC6600;
+    color: #187396;
     font-family: Georgia,"Times New Roman",Times,serif;
     font-style: inherit;
     line-height: 1.5em;
@@ -282,7 +279,6 @@ a img { border: 0; }
     font-family: arial;
     font-weight: normal;
     color: #CC6600;
-    text-decoration: underline;
     cursor: pointer;
     }
     
@@ -308,7 +304,7 @@ a img { border: 0; }
 }
 
 #about_me {
-    min-height: 950px;
+    min-height: 1000px;
     display: none;
 }
 
@@ -329,7 +325,7 @@ a img { border: 0; }
 }
 
 #portfolio{
-    min-height: 800px;
+    min-height: 1000px;
     display: none;
 }
 
@@ -341,7 +337,7 @@ a img { border: 0; }
     width: 250px;
     height: 150px;
     float: left;
-    padding: 0 20px 20px 20px;
+    border: 1px solid #965118;
 }
 
 #blog{
@@ -359,22 +355,22 @@ a img { border: 0; }
 }
 
 
-#links ul{
-    list-style-type: none    
-}
-
 #links a{
-    font-size: 1em;
+    font-size: 14px;
     line-height:3em;
     font-family: arial;
     font-weight: normal;
     color: #FFFFFF;
 }
 
-.post{ padding: 10px;width: 650px; }
+.post{ padding: 5px;width: 650px; }
+.post hr{ width: 75%; }
+#links hr{ width: 100% }
 
-hr{ width: 80%; }
 
-#cp a{ color: #FFFFFF; }
+#main hr{ width: 80%; }
+
+#cp { background-color: #25ADE4;height: 50px;padding-top: 50px; }
+#cp a{ color: #FFFFFF; } #cp p{ color: #FFFFFF; }
 
 

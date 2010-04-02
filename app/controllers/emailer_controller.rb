@@ -1,9 +1,10 @@
 class EmailerController < ApplicationController
   def send_mail
-    name = params[:email][:name]
-    email = params[:email][:email]
-    subject = params[:email][:subject]
-    message = params[:email][:message]
+    mail = params[:mailer]
+    name = mail[:name]
+    email = mail[:email]
+    subject = mail[:subject]
+    message = mail[:message]
     Emailer.deliver_contact(name, email, subject, message)
     redirect_to :back
   end
