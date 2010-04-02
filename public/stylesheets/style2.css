@@ -113,7 +113,7 @@ width: 950px;
 #header .logo
 {
 float:left;
-padding-top:15px;
+padding-top:20px;
 border: none;
 }
 
@@ -239,7 +239,7 @@ a img { border: 0; }
 
 #sapthagiri img{
     float: left;
-    padding-top: 100px;
+    padding-top: 97px;
 }
 
 #main{
@@ -363,8 +363,7 @@ a img { border: 0; }
     color: #FFFFFF;
 }
 
-.post{ padding: 5px;width: 650px; }
-.post hr{ width: 75%; }
+.post{ width: 600px; }
 #links hr{ width: 100% }
 
 
