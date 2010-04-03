@@ -190,6 +190,7 @@ border-bottom:5px solid #eaeaea;
 {
 height: 400px;
 background-color: #25ADE4;
+min-width: 100%;
 }
 
 #footer p
@@ -237,10 +238,7 @@ a img { border: 0; }
 
 /*---------content------------*/
 
-#sapthagiri img{
-    float: left;
-    padding-top: 97px;
-}
+#sapthagiri img{ float: left;padding-top: 97px; }
 
 #main{
     margin: 44px auto;
@@ -290,10 +288,7 @@ a img { border: 0; }
     padding-left: 15px;
 }
 
-#home{
-    min-height: 460px;
-    text-align: justify;
-}
+#home{ min-height: 460px;text-align: justify; }
 
 
 .home_text a{
@@ -303,18 +298,10 @@ a img { border: 0; }
     cursor: pointer;
 }
 
-#about_me {
-    min-height: 1000px;
-    display: none;
-}
+#about_me { min-height: 1000px; display: none; }
 
-#about_me table{
-    padding-left: 20px;
-}
-
-#about_me table p{
-    font-size: 14px;
-}
+#about_me table{ padding-left: 20px; }
+#about_me table p{ font-size: 14px; }
 #about_me table h4{
     font-size: 0.8em;
     line-height:1.5em;
@@ -324,15 +311,8 @@ a img { border: 0; }
     cursor: default;
 }
 
-#portfolio{
-    min-height: 1000px;
-    display: none;
-}
-
-#portfolio div{
-    min-height: 270px;
-}
-
+#portfolio{ min-height: 1000px;display: none; }
+#portfolio div{ min-height: 270px; }
 #portfolio img{
     width: 250px;
     height: 150px;
@@ -340,21 +320,11 @@ a img { border: 0; }
     border: 1px solid #965118;
 }
 
-#blog{
-    min-height: 600px;
-    display: none;
-}
+#blog{ min-height: 600px;display: none; }
+#mail{ min-height: 460px;display: none; }
+#mail h5{ color: #467AA7; }
 
-#mail{
-    min-height: 460px;
-    display: none;
-}
-
-#mail h5{
-    color: #467AA7;
-}
-
-
+#links{ float: left;margin-left: 250px; }
 #links a{
     font-size: 14px;
     line-height:3em;
@@ -363,13 +333,13 @@ a img { border: 0; }
     color: #FFFFFF;
 }
 
-.post{ width: 600px; }
+#tweets{ margin-left: 450px; }
+.post{ width: 500px; }
+
 #links hr{ width: 100% }
-
-
 #main hr{ width: 80%; }
 
-#cp { background-color: #25ADE4;height: 50px;padding-top: 50px; }
+#cp { background-color: #25ADE4;height: 50px;padding-top: 50px; min-width: 100%; }
 #cp a{ color: #FFFFFF; } #cp p{ color: #FFFFFF; }
 
 
