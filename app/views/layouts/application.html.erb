@@ -1,20 +1,24 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-  <title> Sapthakiri - Web Developer, Pondicherry, India</title>
-  <link rel="shortcut icon" href="http://lh4.ggpht.com/_dhKhd04rE9c/Sx85ZIQUMmI/AAAAAAAAAPo/P9tkJ4VXEsg/Image0504c.jpg" />
-  <%= stylesheet_link_tag ('style2') %>
-  <%= javascript_include_tag ('jquery', 'jquery.scrollTo', 'jquery.localscroll', 'jquery.jtwitter', 'output-demo') %>
-</head>
-
-<body> 
-  <%= render :partial=> 'shared/header' %>
+<% unless params[:controller] == 'resume' %>
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  
+  <html xmlns="http://www.w3.org/1999/xhtml">
+  
+  <head>
+    <title> Sapthakiri - Web Developer, Pondicherry, India</title>
+    <link rel="shortcut icon" href="http://lh4.ggpht.com/_dhKhd04rE9c/Sx85ZIQUMmI/AAAAAAAAAPo/P9tkJ4VXEsg/Image0504c.jpg" />
+    <%= stylesheet_link_tag ('style2') %>
+    <%= javascript_include_tag ('jquery', 'jquery.scrollTo', 'jquery.localscroll', 'jquery.jtwitter', 'output-demo') %>
+  </head>
+  
+  <body>
+    <%= render :partial=> 'shared/header' %>
+    <%= yield %>
+    <%= render :partial=> 'shared/footer' %>
+  
+  </body>
+  
+  </html>
+<% else %>
   <%= yield %>
-  <%= render :partial=> 'shared/footer' %>
-</body>
-
-</html>
-
+<% end %>  

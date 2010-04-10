@@ -246,8 +246,9 @@ a img { border: 0; }
 }
 
 #main p{
-    color: #999999;
+    color: #2F2F2F;
     padding-left: 20px;
+    font-family:'Lucida Bright',Constantia,Georgia,Times,'Times New Roman',serif;
     font-size: 14px;
     line-height: 1.7em;
     text-align: justify;
@@ -293,7 +294,7 @@ a img { border: 0; }
 .home_text a{
     font-size: 40px;
     text-decoration: underline;
-    color: #999999;
+    color: #2F2F2F;
     cursor: pointer;
 }
 
