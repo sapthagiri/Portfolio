@@ -3,7 +3,7 @@ class ResumeController < ApplicationController
   end
   
   def doc
-    @filename ="#{RAILS_ROOT}/tmp/resume/sap.doc"
+    @filename ="#{RAILS_ROOT}/tmp/resume/sap-doc.doc"
     send_file(@filename ,
                 :filename      =>  "sapthakiri-resume",
                 :type          =>  'application/msword',
@@ -13,7 +13,7 @@ class ResumeController < ApplicationController
   end
   
   def pdf
-    @filename ="#{RAILS_ROOT}/tmp/resume/sap.pdf"
+    @filename ="#{RAILS_ROOT}/tmp/resume/sap-pdf.pdf"
     send_file(@filename ,
                 :filename      =>  "sapthakiri-resume",
                 :type          =>  'application/pdf',
