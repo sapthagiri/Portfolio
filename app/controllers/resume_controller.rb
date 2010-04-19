@@ -4,21 +4,11 @@ class ResumeController < ApplicationController
   
   def doc
     @filename ="#{RAILS_ROOT}/tmp/resume/sap-doc.doc"
-    send_file(@filename ,
-                :filename      =>  "sapthakiri-resume",
-                :type          =>  'application/msword',
-                :disposition  =>  'attachment',
-                :streaming    =>  'true',
-            :buffer_size  =>  4096)
+    send_file(@filename , :filename      =>  "sap-doc.doc")
   end
   
   def pdf
     @filename ="#{RAILS_ROOT}/tmp/resume/sap-pdf.pdf"
-    send_file(@filename ,
-                :filename      =>  "sapthakiri-resume",
-                :type          =>  'application/pdf',
-                :disposition  =>  'attachment',
-                :streaming    =>  'true',
-            :buffer_size  =>  4096)
+    send_file(@filename , :filename      =>  "sap-pdf.pdf")
   end
 end
