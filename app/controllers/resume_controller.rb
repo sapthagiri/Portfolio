@@ -9,7 +9,7 @@ class ResumeController < ApplicationController
                 :type          =>  'application/msword',
                 :disposition  =>  'attachment',
                 :streaming    =>  'true',
-            :buffer_size  =>  '4096')
+            :buffer_size  =>  4096)
   end
   
   def pdf
@@ -19,6 +19,6 @@ class ResumeController < ApplicationController
                 :type          =>  'application/pdf',
                 :disposition  =>  'attachment',
                 :streaming    =>  'true',
-            :buffer_size  =>  '4096')
+            :buffer_size  =>  4096)
   end
 end
