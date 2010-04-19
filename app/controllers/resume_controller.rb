@@ -4,11 +4,11 @@ class ResumeController < ApplicationController
   
   def doc
     @filename ="#{RAILS_ROOT}/tmp/resume/sap-doc.doc"
-    send_file(@filename , :filename =>  "sap-doc.doc", :stream => true)
+    send_file @filename, :disposition => 'inline'
   end
   
   def pdf
     @filename ="#{RAILS_ROOT}/tmp/resume/sap-pdf.pdf"
-    send_file(@filename , :filename =>  "sap-pdf.pdf")
+    send_file @filename, :disposition => 'inline'
   end
 end
