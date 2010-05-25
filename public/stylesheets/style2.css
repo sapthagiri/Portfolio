@@ -118,13 +118,13 @@ padding-top:20px;
 
 #header .logo{
     display: block;
-    font-family: "proxima-nova-1","proxima-nova-2","Helvetica Neue","Arial",sans-serif;
-    font-size: 45px;
+    font-family: Keffeesatz,Arial;
+    font-size: 47px;
     line-height: 1em;
     font-weight: 800;
     color: #9A9A9A;
     text-transform: lowercase;
-    text-shadow: 0 0 1px #222222;
+    text-shadow: text-shadow: 1px 1px #5588EE, 2px 2px #5588EE, 3px 3px #5588EE, 4px 4px #5588EE, 5px 5px #5588EE, 6px 6px #5588EE, 7px 7px #5588EE, 8px 8px #5588EE, 9px 9px #5588EE, 10px 10px #5588EE, 11px 11px #5588EE;;
 }
 
 /*#header .logo:hover{*/
@@ -277,7 +277,7 @@ a img { border: 0; }
 #main h2{
     color: #25ADE4;
     font-size: 2.5em;
-    font-family: "proxima-nova-1","proxima-nova-2","Helvetica Neue","Arial",sans-serif;
+    font-family: Keffeesatz,Arial;
     font-style: inherit;
     line-height: 1.85em;
     text-align: inherit;
