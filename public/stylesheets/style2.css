@@ -207,7 +207,7 @@ border-bottom:5px solid #eaeaea;
 
 #footer 
 {
-height: 400px;
+height: 340px;
 background-color: #25ADE4;
 min-width: 100%;
 }
@@ -238,8 +238,8 @@ text-decoration: underline;
 font-weight: normal;
 color: #facd00;
 text-align: center;
-} 
-222222
+}
+
 #footer a:hover 
 {
 text-decoration: underline;
@@ -312,10 +312,12 @@ a img { border: 0; }
 
 
 .home_text a{
-    font-size: 40px;
+    font-size: 39px;
     text-decoration: underline;
     color: #2F2F2F;
-    cursor: pointer;    
+    cursor: pointer;
+    text-transform: lowercase;
+    font-weight: bold;
 }
 
 #about_me { min-height: 1000px; display: none; }
