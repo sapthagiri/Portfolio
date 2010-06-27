@@ -173,19 +173,10 @@
       $('#about_me, #portfolio, #blog, #mail').hide('slow');
     });
     
-    $.jTwitter('sapthakiri', 5, function(data){
-        $.each(data, function(i, post){
-            $('#tweets').append(
-                '<div class="post">'
-                +' <div class="txt">'
-                + '<p>'
-                +    post.text
-                + '</p>'
-                + '<hr/>'
-                +' </div>'
-                +'</div>'
-            );
-        });
+    $(".tweet").tweet({
+      username: "sapthakiri",
+      count: 5,
+      loading_text: "loading tweets..."
     });
 
   });
