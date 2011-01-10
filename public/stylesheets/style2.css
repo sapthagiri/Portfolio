@@ -89,12 +89,12 @@ body
 }
 
 #wrapper{
-    background-color: #000;
-    height: 85px;
+    background-color: #0B0F0C;
+    height: 100px;
     width: 100%;
-    -moz-border-radius: 0 0 15px 15px;
+  /*  -moz-border-radius: 0 0 15px 15px;
     -webkit-border-radius: 0 0 15px 15px;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px;*/
 }
 
 #header 
@@ -104,21 +104,9 @@ body
 }
 
 #header .logo{
-    float:left;
-    display: block;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 42px;
-    line-height: 1em;
-    font-weight: 100;
-    color: #9A9A9A;
-    text-transform: lowercase;
-    text-shadow: text-shadow: 1px 1px #5588EE, 2px 2px #5588EE, 3px 3px #5588EE, 4px 4px #5588EE, 5px 5px #5588EE, 6px 6px #5588EE, 7px 7px #5588EE, 8px 8px #5588EE, 9px 9px #5588EE, 10px 10px #5588EE, 11px 11px #5588EE;;
-}
-
-#header .logo span{
-    color: #25ADE4;
-    font-size: 15px;
-    margin-left: 150px;
+    float: left;
+    margin-top: 10px;
+    
 }
 
 #nav ul
@@ -159,12 +147,22 @@ body
 
 #nav  li a:hover
 {
-    color: #25ADE4;
+    background-color: #212723;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 
 #nav .selected {
-    color: #25ADE4;
+    background-color: #212723;
+    width: 76px;
+    text-align: center;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    behavior: url(border-radius.htc);
+
 }
 
 #content 
@@ -223,17 +221,17 @@ body
 
 #footer h3{
     font-family: 'Courier New', Courier, monospace;
-    padding: 25px 25px 25px 0;
+    padding: 25px 25px 10px 0;
 }
 
 a img { border: 0; }
 
 /*---------content------------*/
 
-#sapthagiri img{ float: left;padding-top: 97px; }
+#sapthagiri img{ float: left;padding-top: 63px; }
 
 #main{
-    margin: 44px auto;
+    margin: 27px auto;
     min-height: 460px;
     width: 960px;
 }
@@ -332,7 +330,6 @@ a img { border: 0; }
 .tweet ul{
     list-style: none;
 }
-
 #links hr{ width: 100% }
 #main hr{ width: 80%; }
 
@@ -346,3 +343,9 @@ a img { border: 0; }
     border-radius: 15px;
 }
 #cp a{ color: #FFFFFF; } #cp p{ color: #FFFFFF; }
+
+.title{ background-color: #A7DA7D;}
+.title h3{color: #2F2F2F;}
+
+
+#wrapper_1{height: 110px; background-color: #0B0F0C;}
