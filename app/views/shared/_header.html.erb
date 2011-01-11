@@ -1,24 +1,20 @@
-<% unless params[:controller] == "posts" %>
-    <div id="wrapper">
-      <div id="header">
-        <div class="logo">
-          <img src="/images/sapthakiri_logo.png" alt="Sapthakiri" style="float:left;" />
-        </div>
-        <div id="nav">
-          <ul class="menu">
-            <li><a href="" class="selected">HOME</a> </li>
-            <li><a href="" class="about">ABOUT</a></li>
-            <li><a href="" class="portfolio" >PORTFOLIO</a></li>
-            <li><a href="" class="blog">BLOG</a></li>
-            <li><a href="" class="contact">CONTACT</a></li>
-            <li>  <%= link_to "RESUME", {:controller => 'resume', :action => 'index'} %></li>
-          </ul>
-        </div>
-      </div>
+<div id="wrapper">
+  <div id="header">
+    <div class="logo">
+      <img src="/images/sapthakiri_logo.png" alt="Sapthakiri" style="float:left;" />
     </div>
-<% else %>
-    <div id = "wrapper_1">
+    <div id="nav">
+      <ul class="menu">
+        <li><a href="" class="selected">HOME</a> </li>
+        <li><a href="" class="about">ABOUT</a></li>
+        <li><a href="" class="portfolio" >PORTFOLIO</a></li>
+        <li><a href="" class="blog">BLOG</a></li>
+        <li><a href="" class="contact">CONTACT</a></li>
+        <li>  <%= link_to "RESUME", {:controller => 'resume', :action => 'index'} %></li>
+      </ul>
     </div>
-<% end %>
+  </div>
+</div>
+
 
   

@@ -181,9 +181,9 @@ body
     height: 350px;
     background-color: #25ADE4;
     min-width: 100%;
-    -moz-border-radius: 0 0 15px 15px;
+    /*-moz-border-radius: 0 0 15px 15px;
     -webkit-border-radius: 0 0 15px 15px;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px;*/
 }
 
 #footer p
@@ -317,7 +317,7 @@ a img { border: 0; }
 #mail{ min-height: 460px;display: none; }
 #mail h5{ color: #467AA7; }
 
-#links{ float: left;margin-left: 250px; }
+#links{ float: left;margin-left: 185px; }
 #links a{
     font-size: 14px;
     line-height:3em;
@@ -338,9 +338,9 @@ a img { border: 0; }
     height: 40px;
     padding-top: 10px;
     min-width: 100%;
-    -moz-border-radius: 15px;
+    /*-moz-border-radius: 15px;
     -webkit-border-radius: 15px;
-    border-radius: 15px;
+    border-radius: 15px;*/
 }
 #cp a{ color: #FFFFFF; } #cp p{ color: #FFFFFF; }
 
@@ -348,4 +348,3 @@ a img { border: 0; }
 .title h3{color: #2F2F2F;}
 
 
-#wrapper_1{height: 110px; background-color: #0B0F0C;}
