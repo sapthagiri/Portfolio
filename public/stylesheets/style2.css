@@ -178,7 +178,7 @@ body
 
 #footer 
 {
-    height: 350px;
+    height: 150px;
     background-color: #25ADE4;
     min-width: 100%;
     /*-moz-border-radius: 0 0 15px 15px;
@@ -317,7 +317,7 @@ a img { border: 0; }
 #mail{ min-height: 460px;display: none; }
 #mail h5{ color: #467AA7; }
 
-#links{ float: left;margin-left: 185px; }
+#links{ float: left;margin-left: 200px; }
 #links a{
     font-size: 14px;
     line-height:3em;
