@@ -148,23 +148,26 @@
   $(document).ready(function(){
     $('.about').click(function(){
       $('#about_me, #portfolio, #blog, #mail').show();
-      $('#sapthagiri').fadeOut();
+      $('#sapthagiri').hide();
       $.scrollTo("#about_me", 1000);
       return false;
     });
 
     $('.portfolio').click(function(){
       $('#about_me, #portfolio, #blog, #mail').show();
+      $('#sapthagiri').hide();
       $.scrollTo("#portfolio", 1200);
       return false;
     });
     $('.blog').click(function(){
       $('#about_me, #portfolio, #blog, #mail').show();
+      $('#sapthagiri').hide();
       $.scrollTo("#blog", 1000);
       return false;
     });
     $('.contact').click(function(){
       $('#about_me, #portfolio, #blog, #mail').show();
+      $('#sapthagiri').hide();
       $.scrollTo("#mail", 1000);
       return false;
     });
