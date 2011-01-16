@@ -161,8 +161,6 @@ body
     -moz-border-radius: 5px 5px 5px 5px;
     -webkit-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
-    behavior: url(border-radius.htc);
-
 }
 
 #content 
@@ -346,5 +344,7 @@ a img { border: 0; }
 
 .title{ background-color: #A7DA7D;}
 .title h3{color: #2F2F2F;}
+
+
 
 
