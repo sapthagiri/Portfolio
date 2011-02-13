@@ -183,6 +183,12 @@ body
     border-radius: 0 0 15px 15px;*/
 }
 
+.footer_content {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #footer p
 {
     font-size: 0.7em;
@@ -244,8 +250,15 @@ a img { border: 0; }
 
 #main h2{
     color: #25ADE4;
-    font-size: 38px;
-    /*font-family: Keffeesatz,Arial;*/
+    font-size: 42px;
+    font-family: Constantia,
+                 "Lucida Bright",
+                 LucidaBright,
+                 "DejaVu Serif",
+                 "Bitstream Vera Serif",
+                 "Liberation Serif",
+                 Georgia,
+                 serif;
     font-style: inherit;
     line-height: 2em;
     text-align: inherit;
