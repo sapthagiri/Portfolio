@@ -185,8 +185,7 @@ body
 
 .footer_content {
 	width: 960px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 }
 
 #footer p
@@ -327,7 +326,7 @@ a img { border: 0; }
 #mail{ min-height: 460px;display: none; }
 #mail h5{ color: #467AA7; }
 
-#links{ float: left;margin-left: 200px; }
+#links{  }
 #links a{
     font-size: 14px;
     line-height:3em;
